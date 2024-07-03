@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+section{
+    padding: 50px 10%;
+}
+img{
+    width: 100%;
+}
+.section-heading h2{
+    text-align: center;
+    color: rgb(184, 35, 48);
+    font-weight: 600;
+}
+.btn0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: rgb(83, 85, 90);
+    border-radius: 20px;
+    padding: 13px 25px;
+    
+}
+
+
+
+
+
+.entete{
+    background-color: rgb(255, 190, 159);
+    display: flex;
+    padding: 15px 10px;
+}
+.entete p{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(184, 35, 48);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo img{
+    width: 130px;
+}
+.icons i{
+    font-size: 25px;
+    color: rgb(184, 35, 48);
+    margin-left: 10px;
+}
+header form select{
+    color: rgb(184, 35, 48);
+    margin: 0;
+    font-weight: 600;
+}
+
+/* BANNER STYLE */
+.banner{
+    animation: banner-anime 5s infinite;
+    display: flex;
+    justify-content: center;
+   min-height: 65vh;
+    background: no-repeat center/ cover url(./images/banniere.webp) ;
+}
+/* @keyframes banner-anime{
+    10%{
+        background: no-repeat center/ cover url(./images/banniere2.webp) ;
+    }
+    50%{
+        background: no-repeat center/ cover url(./images/img12.webp) ;
+    }
+    80%{
+        background: no-repeat center/ cover url(./images/img11.web) ;
+    }
+    100%{
+        background: no-repeat center/ cover url(./images/img13.webp) ;
+    }
+    
+} */
+
+
+
+/* MIXE STYLE */
+.mixe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.mixe-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 50px;
+    margin: 50px 0;
+}
+.mixe-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.mixe-box .span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    color: rgb(83, 85, 90);
+    padding: 7px;
+    font-weight: 600;
+}
+.mixe-box h5{
+    font-size: 18px;
+    word-wrap: normal;
+    color: rgb(83, 85, 90);
+    margin: 16px 0;
+}
+.mixe-box .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mixe-box .price span{
+    color: rgb(184, 35, 48);
+    margin-right: 10px;
+}
+.price p{
+    text-decoration: line-through;
+    color: rgb(83, 85, 90);
+}
+
+/* PRANA STYLE */
+.prana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background: no-repeat center/ cover url(./images/banniere2.webp);
+    background-attachment: fixed;
+}
+.prana-content{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+}
+.prana-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 50px 25px;
+}
+.prana-box h4{
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 32px;
+}
+.prana-box p{
+    line-height: 30px;
+    margin-bottom: 15px;
+    color: rgb(83, 85, 90);
+}
+.prana-box a{
+    display: inline-block;
+    color: rgb(83, 85, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 770px) {
+    section{
+        padding: 20px 3%;
+    }
+}
